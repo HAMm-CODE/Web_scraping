@@ -6,6 +6,11 @@ This project scrapes the top 50 most highly-ranked films from the Wayback Machin
 ## Overview
 This web scraping application automatically collects film data from a historical web archive and stores it in multiple formats for easy access and analysis.
 
+## Output Preview
+The script prints the ranked film list to the terminal and saves the results to CSV and SQLite.
+
+![Terminal output showing the top 50 films](image.png)
+
 ## Features
 - **Web Scraping**: Extracts film data from the archived Everybody Wiki page
 - **Data Processing**: Parses HTML tables using BeautifulSoup and processes the top 50 films
